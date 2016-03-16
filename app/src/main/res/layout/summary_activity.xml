@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.didyouknow.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#E0E0E0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:id="@+id/pontuation_textview"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#8D6E63"
+                android:text="Your pontuation"/>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/pontuation_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score_textview"
+                android:text="0 acertos de 5"
+                android:textSize="40sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respostas"
+            android:layout_margin="8dp"
+            android:textColor="#8D6E63"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porque o teclado do computador não segue a ordem alfabética?"
+            android:layout_margin="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Pra separar as letras mais usadas na lingua inglesa."
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porque se atira arroz aos noivos?"
+            android:layout_margin="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Na antiga china, dizia-se que o arroz era símbolo de prosperidade e abundância. Joga-los significa passar boas expectativas."
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Os touros enxergam em braco e preto', Então por quê eles reagem a cor vermelha?"
+            android:layout_margin="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Touros não notam a diferença de cores, numa tourada o que importa é como a capa é balançada."
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Qual o significado de inescrupuloso?"
+            android:layout_margin="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aquele que não age pelos principios morais."
+            android:textStyle="italic"
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Quantos ovos um mosquito da dengue produz em seu tempo de vida?"
+            android:layout_margin="8dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Até 450 ovos."
+            android:textStyle="italic"
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
