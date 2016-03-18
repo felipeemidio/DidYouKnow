@@ -109,8 +109,10 @@ public class QuestionActivity extends AppCompatActivity {
 
         if (radioButton.isChecked()) {
             score += 1;
+            Toast.makeText(this, "correto!", Toast.LENGTH_SHORT ).show();
+        } else{
+            Toast.makeText(this, "errado!", Toast.LENGTH_SHORT ).show();
         }
-        Toast.makeText(this, "" + score + " " + rightChoice, Toast.LENGTH_SHORT ).show();
 
         this.index_currentProblem += 1;
         if(this.index_currentProblem >=5) {

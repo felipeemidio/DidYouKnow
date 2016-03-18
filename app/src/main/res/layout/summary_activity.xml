@@ -24,7 +24,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_alignParentTop="true"
                 android:textColor="#8D6E63"
-                android:text="Your pontuation"/>
+                android:text="Sua Pontuação"/>
 
             <TextView
                 android:layout_centerHorizontal="true"
